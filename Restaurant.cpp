@@ -13,7 +13,7 @@ Restaurant::~Restaurant() {
 
 // constructor de copiere
 Restaurant::Restaurant(const Restaurant& altul) : nume(altul.nume), adresa(altul.adresa) {
-    for (Produs* p : altul.meniu) {
+    for (const Produs* p : altul.meniu) {
         // produs nou
         meniu.push_back(new Produs(p->getNume(), p->getPret()));
     }
@@ -34,7 +34,7 @@ Restaurant& Restaurant::operator=(const Restaurant& altul) {
     // copiem datele noi
     nume = altul.nume;
     adresa = altul.adresa;
-    for (Produs* p : altul.meniu) {
+    for (const Produs* p : altul.meniu) {
         meniu.push_back(new Produs(p->getNume(), p->getPret()));
     }
 
@@ -56,7 +56,7 @@ void Restaurant::afisare() const {
         std::cout << " (meniul este momentan gol)\n";
     } 
     else {
-        for(Produs* p : meniu) {
+        for(const Produs* p : meniu) {
             std::cout << "  - " << *p << "\n";
         }
     }
