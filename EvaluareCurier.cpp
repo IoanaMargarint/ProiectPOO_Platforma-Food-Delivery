@@ -1,6 +1,6 @@
 #include "EvaluareCurier.h"
 
-EvaluareCurier::EvaluareCurier(int nota, std::string mesaj, std::string numeCurier, int timpLivrareMinute) : Evaluare(nota, mesaj), numeCurier(numeCurier), timpLivrareMinute(timpLivrareMinute) {}
+EvaluareCurier::EvaluareCurier(int nota, const std::string& mesaj, const std::string& numeCurier, int timpLivrareMinute) : Evaluare(nota, mesaj), numeCurier(numeCurier), timpLivrareMinute(timpLivrareMinute) {}
 
 EvaluareCurier::~EvaluareCurier() {}
 
