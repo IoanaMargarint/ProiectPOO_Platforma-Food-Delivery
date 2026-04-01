@@ -7,7 +7,7 @@ private:
 
 public:
     // constructor
-    Curier(std::string nume, std::string telefon, std::string vehicul);
+    Curier(const std::string& nume, const std::string& telefon, const std::string& vehicul);
 
     ~Curier() override;
 
