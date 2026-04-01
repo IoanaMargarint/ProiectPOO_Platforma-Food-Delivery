@@ -1,6 +1,6 @@
 #include"EvaluareAplicatie.h"
 
-EvaluareAplicatie::EvaluareAplicatie(int nota, std::string mesaj, bool IntampinareErori) : Evaluare(nota, mesaj), IntampinareErori(IntampinareErori) {}
+EvaluareAplicatie::EvaluareAplicatie(int nota, const std::string& mesaj, bool IntampinareErori) : Evaluare(nota, mesaj), IntampinareErori(IntampinareErori) {}
 
 EvaluareAplicatie::~EvaluareAplicatie() {}
 
