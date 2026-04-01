@@ -30,4 +30,3 @@ public:
     const std::vector<Produs*>& getProduse() const { return meniu; }
     std::string getNume() const { return nume; }
 };
-};
