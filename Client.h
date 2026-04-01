@@ -7,7 +7,7 @@ private:
 
 public:
     // constructor
-    Client(std::string nume, std::string telefon, std::string adresaLivrare);
+    Client(const std::string& nume, const std::string& telefon, const std::string& adresaLivrare);
 
     ~Client() override;
 
@@ -15,4 +15,5 @@ public:
 
     // setter pt modificare adresa
     void setAdresaLivrare(const std::string& adresa) { adresaLivrare = adresa;}
+    std::string getAdresaLivrare() const { return adresaLivrare; }
 };
