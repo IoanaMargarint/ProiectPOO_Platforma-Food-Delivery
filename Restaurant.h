@@ -12,7 +12,7 @@ private:
 
 public:
     // constructor
-    Restaurant(std::string nume, std::string adresa);
+    Restaurant(const std::string& nume, const std::string& adresa);
 
     // destructor
     ~Restaurant();
@@ -26,5 +26,8 @@ public:
     void adaugaProdus(Produs* p);
     void afisare() const;
 
+    // getter pt plasarea comenzii
+    const std::vector<Produs*>& getProduse() const { return meniu; }
     std::string getNume() const { return nume; }
+};
 };
