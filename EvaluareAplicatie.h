@@ -6,7 +6,7 @@ private:
     bool IntampinareErori; 
 
 public:
-    EvaluareAplicatie(int nota, std::string mesaj, bool IntampinareErori);
+    EvaluareAplicatie(int nota, const std::string& mesaj, bool IntampinareErori);
     ~EvaluareAplicatie() override;
     
     void afisare() const override;
