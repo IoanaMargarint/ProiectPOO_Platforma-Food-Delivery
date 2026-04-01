@@ -7,7 +7,7 @@ protected:
     int timpLivrareMinute;
 
 public:
-    EvaluareCurier(int nota, std::string mesaj, std::string numeCurier, int timpLivrareMinute);
+    EvaluareCurier(int nota, const std::string& mesaj, const std::string& numeCurier, int timpLivrareMinute);
 
     ~EvaluareCurier() override;
 
