@@ -33,7 +33,7 @@ void Meniu::adaugaRecenzie(Evaluare* e) { recenzii.push_back(e); }
 
 // meniu principal
 void Meniu::startMeniu() {
-    int optiune;
+    int optiune = 0;
     do {
         std::cout << "\nMENIU PRINCIPAL\n";
         std::cout << "1. adauga\n";
