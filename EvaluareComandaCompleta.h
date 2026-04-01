@@ -8,9 +8,9 @@ private:
 
 public:
     // constructor
-    EvaluareComandaCompleta(int nota, std::string mesaj, 
-                            std::string numeRestaurant, bool mancareCalda,
-                            std::string numeCurier, int timpLivrareMinute,
+    EvaluareComandaCompleta(int nota, const std::string& mesaj, 
+                            const std::string& numeRestaurant, bool mancareCalda,
+                            const std::string& numeCurier, int timpLivrareMinute,
                             int idComanda);
 
     ~EvaluareComandaCompleta() override;
