@@ -19,7 +19,7 @@ void Comanda::adaugaInCos(Produs* p) {
 
 void Comanda::calculeazaTotal() {
     pretTotal = 0;
-    for(Produs* p : cosCumparaturi) {
+    for(const Produs* p : cosCumparaturi) {
         pretTotal += p->getPret();
     }
 }
@@ -41,7 +41,7 @@ void Comanda::afisare() const {
         std::cout << " ( cosul este gol)\n";
     }
     else {
-        for(Produs* p : cosCumparaturi) {
+        for(const Produs* p : cosCumparaturi) {
             std::cout << "  - " << p->getNume() << " (" << p->getPret() << " RON)\n";
         }
     } 
