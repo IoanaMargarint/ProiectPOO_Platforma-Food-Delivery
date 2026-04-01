@@ -11,7 +11,7 @@ protected:
 
 public:
     // constructor
-    Utilizator(std::string nume, std::string telefon);
+    Utilizator(const std::string& nume,const std::string& telefon);
 
     // destructor virtual
     virtual ~Utilizator();
