@@ -1,6 +1,6 @@
 #include "Curier.h"
 
-Curier::Curier(std::string nume, std::string telefon, std::string vehicul) : Utilizator(nume, telefon), vehicul(vehicul) {}
+Curier::Curier(const std::string& nume, const std::string& telefon, const std::string& vehicul) : Utilizator(nume, telefon), vehicul(vehicul) {}
 
 Curier::~Curier() {}
 
