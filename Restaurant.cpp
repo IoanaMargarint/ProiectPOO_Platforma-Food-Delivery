@@ -14,7 +14,8 @@ Restaurant::~Restaurant() {
 // constructor de copiere
 Restaurant::Restaurant(const Restaurant& altul) : nume(altul.nume), adresa(altul.adresa) {
     for (const Produs* p : altul.meniu) {
-        meniu.push_back(new Produs(p->getNume(), p->getPret()));
+        Produs* produsNou = new Produs(p->getNume(), p->getPret());
+        meniu.push_back(produsNou);
     }
 }
 
@@ -34,7 +35,8 @@ Restaurant& Restaurant::operator=(const Restaurant& altul) {
     nume = altul.nume;
     adresa = altul.adresa;
     for (const Produs* p : altul.meniu) {
-        meniu.push_back(new Produs(p->getNume(), p->getPret()));
+        Produs* produsNou = new Produs(p->getNume(), p->getPret());
+        meniu.push_back(produsNou);
     }
 
     // obiectul curent
