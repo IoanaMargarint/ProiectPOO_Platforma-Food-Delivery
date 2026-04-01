@@ -18,9 +18,10 @@ void Comanda::adaugaInCos(Produs* p) {
 }
 
 void Comanda::calculeazaTotal() {
-   pretTotal = 0;
-    for(Produs* p : cosCumparaturi) {
-        pretTotal += p->getPret();
+   pretTotal = 0.0;
+    for(const Produs* p : cosCumparaturi) {
+        double pretCurent = p->getPret();
+        pretTotal = pretTotal + pretCurent;
     }
 }
 
