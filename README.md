@@ -1,7 +1,7 @@
 # Platformă de food delivery
 
 ## Tema – Food Delivery
-O platformă de food delivery implică mai multe entități diferite care interacționează între ele în mod constant: un client plasează o comandă, un restaurant o pregătește și un curier o livrează. Fiecare dintre ele are un rol bine definit și date proprii. Tocmai de aceea mi s-a părut o temă potrivită pentru proiect — relațiile dintre entități ușor de înțeles și se traduc direct în clase și ierarhii.
+O platformă de food delivery implică mai multe entități diferite care interacționează între ele în mod constant: un client plasează o comandă, un restaurant o pregătește și un curier o livrează. Fiecare dintre ele are un rol bine definit și date proprii. Tocmai de aceea mi s-a părut o temă potrivită pentru proiect — relațiile dintre entități sunt ușor de înțeles și se traduc direct în clase și ierarhii.
 
 ## Despre proiect
 Aplicația simulează o platformă de livrare mâncare. Există trei tipuri de entități principale în sistem: clienții care plasează comenzi, curierii care le livrează și restaurantele de la care se comandă. Clienții pot plasa comenzi selectând produse din meniul unui restaurant. Comanda este asociată automat cu un curier care se ocupă de livrare. La finalul comenzii, clientul poate lăsa una sau mai multe recenzii — pentru restaurant, pentru curier, pentru un preparat specific sau pentru aplicație în general. Toată interacțiunea cu aplicația se face printr-un meniu în consolă, prin care utilizatorul poate adăuga, modifica, șterge sau vizualiza datele din sistem.
