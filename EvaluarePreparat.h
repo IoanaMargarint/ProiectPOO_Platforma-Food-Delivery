@@ -6,7 +6,7 @@ private:
     std::string numeProdus; 
 
 public:
-    EvaluarePreparat(int nota, std::string mesaj, std::string numeRestaurant, bool mancareCalda, std::string numeProdus);
+    EvaluarePreparat(int nota, const std::string& mesaj, const std::string& numeRestaurant, bool mancareCalda, const std::string& numeProdus);
     ~EvaluarePreparat() override;
     
     void afisare() const override;
