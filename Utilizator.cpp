@@ -2,7 +2,7 @@
 
 int Utilizator::contorID = 0;
 
-Utilizator::Utilizator(std::string nume, std::string telefon) : nume(nume), telefon(telefon) {
+Utilizator::Utilizator(const std::string& nume, const std::string& telefon) : nume(nume), telefon(telefon) {
     contorID++; // crestem nr total de utilizatori
     id = contorID; // utilizator = id curent
 }
