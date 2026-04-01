@@ -138,7 +138,9 @@ void Meniu::meniuModifica() {
         if (idx < 0 || idx >= (int)clienti.size()) { 
             std::cout << "Index invalid!\n"; return; 
         }
- 
+
+        std::cout << "adresa curenta: " << clienti[idx]->getAdresaLivrare() << "\n";
+        
         std::string adresaNoua;
         std::cin.ignore();
         std::cout << "adresa noua: "; 
@@ -238,7 +240,10 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "RESTAURANTE:\n";
-        for (const Restaurant* r : restaurante) r->afisare();
+        for (Restaurant* r : restaurante) {
+            r->afisare();
+            std::cout << "nr produse in meniu: " << r->getProduse().size() << "\n";
+        }
     }
     else if (opt == 3) {
         if (comenzi.empty()) { 
@@ -254,7 +259,10 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "RECENZII:\n";
-        for (const Evaluare* e : recenzii) e->afisare();
+        for (Evaluare* e : recenzii) {
+            std::cout << "[nota: " << e->getNota() << "/5] ";
+            e->afisare();
+        }
     }
     else {
         std::cout << "optiune invalida!\n";
