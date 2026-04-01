@@ -1,7 +1,7 @@
 #include "Restaurant.h"
 
 // constructor
-Restaurant::Restaurant(std::string nume, std::string adresa) : nume(nume), adresa(adresa) {}
+Restaurant::Restaurant(const std::string& nume, const std::string& adresa) : nume(nume), adresa(adresa) {}
 
 // destructor - elibereaza memoria pt fiecare produs din vector
 Restaurant::~Restaurant() {
