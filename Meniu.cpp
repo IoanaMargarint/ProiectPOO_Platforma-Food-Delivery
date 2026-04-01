@@ -240,7 +240,7 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "RESTAURANTE:\n";
-        for (Restaurant* r : restaurante) {
+        for (const Restaurant* r : restaurante) {
             r->afisare();
             std::cout << "nr produse in meniu: " << r->getProduse().size() << "\n";
         }
@@ -259,7 +259,7 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "RECENZII:\n";
-        for (Evaluare* e : recenzii) {
+        for (const Evaluare* e : recenzii) {
             std::cout << "[nota: " << e->getNota() << "/5] ";
             e->afisare();
         }
