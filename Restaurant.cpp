@@ -1,4 +1,5 @@
 #include "Restaurant.h"
+#include <algorithm>
 
 // constructor
 Restaurant::Restaurant(const std::string& nume, const std::string& adresa) : nume(nume), adresa(adresa) {}
@@ -13,10 +14,8 @@ Restaurant::~Restaurant() {
 
 // constructor de copiere
 Restaurant::Restaurant(const Restaurant& altul) : nume(altul.nume), adresa(altul.adresa) {
-    for (const Produs* p : altul.meniu) {
-        // produs nou
-        meniu.push_back(new Produs(p->getNume(), p->getPret()));
-    }
+    std::transform(altul.meniu.begin(), altul.meniu.end(), std::back_inserter(meniu),
+        [](const Produs* p) { return new Produs(p->getNume(), p->getPret()); });
 }
 
 // operatorul = 
@@ -34,9 +33,8 @@ Restaurant& Restaurant::operator=(const Restaurant& altul) {
     // copiem datele noi
     nume = altul.nume;
     adresa = altul.adresa;
-    for (const Produs* p : altul.meniu) {
-        meniu.push_back(new Produs(p->getNume(), p->getPret()));
-    }
+    std::transform(altul.meniu.begin(), altul.meniu.end(), std::back_inserter(meniu),
+        [](const Produs* p) { return new Produs(p->getNume(), p->getPret()); });
 
     // obiectul curent
     return *this;
