@@ -14,9 +14,12 @@ protected:
     std::string mesaj;
 
 public:
-    Evaluare(int nota, std::string mesaj);
+    Evaluare(int nota, const std::string& mesaj);
     virtual ~Evaluare();
 
     // functie virtuala pura
     virtual void afisare() const = 0;
+
+    // getter pt nota
+    int getNota() const { return nota; }
 };
