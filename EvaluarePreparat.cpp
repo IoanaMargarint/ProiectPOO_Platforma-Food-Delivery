@@ -1,6 +1,6 @@
 #include"EvaluarePreparat.h"
 
-EvaluarePreparat::EvaluarePreparat(int nota, std::string mesaj, std::string numeRestaurant, bool mancareCalda, std::string numeProdus) 
+EvaluarePreparat::EvaluarePreparat(int nota, const std::string& mesaj, const std::string& numeRestaurant, bool mancareCalda, const std::string& numeProdus) 
     : Evaluare(nota, mesaj), EvaluareRestaurant(nota, mesaj, numeRestaurant, mancareCalda), numeProdus(numeProdus) {}
 
 EvaluarePreparat::~EvaluarePreparat() {}
