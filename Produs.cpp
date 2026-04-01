@@ -1,6 +1,6 @@
 #include "Produs.h"
 
-Produs::Produs(std::string nume, double pret) : nume(nume), pret(pret) {}
+Produs::Produs(const std::string& nume, double pret) : nume(nume), pret(pret) {}
 
 Produs::~Produs() {}
 
