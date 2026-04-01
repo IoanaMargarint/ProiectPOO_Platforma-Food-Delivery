@@ -1,0 +1,86 @@
+[
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\main.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\main.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/main.cpp",
+  "output": "CMakeFiles/oop.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Produs.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Produs.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Produs.cpp",
+  "output": "CMakeFiles/oop.dir/Produs.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Utilizator.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Utilizator.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Utilizator.cpp",
+  "output": "CMakeFiles/oop.dir/Utilizator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Client.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Client.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Client.cpp",
+  "output": "CMakeFiles/oop.dir/Client.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Curier.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Curier.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Curier.cpp",
+  "output": "CMakeFiles/oop.dir/Curier.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Restaurant.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Restaurant.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Restaurant.cpp",
+  "output": "CMakeFiles/oop.dir/Restaurant.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Comanda.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Comanda.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Comanda.cpp",
+  "output": "CMakeFiles/oop.dir/Comanda.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Evaluare.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Evaluare.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Evaluare.cpp",
+  "output": "CMakeFiles/oop.dir/Evaluare.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\EvaluareRestaurant.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\EvaluareRestaurant.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/EvaluareRestaurant.cpp",
+  "output": "CMakeFiles/oop.dir/EvaluareRestaurant.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\EvaluareCurier.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\EvaluareCurier.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/EvaluareCurier.cpp",
+  "output": "CMakeFiles/oop.dir/EvaluareCurier.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\EvaluareComandaCompleta.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\EvaluareComandaCompleta.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/EvaluareComandaCompleta.cpp",
+  "output": "CMakeFiles/oop.dir/EvaluareComandaCompleta.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\EvaluareAplicatie.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\EvaluareAplicatie.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/EvaluareAplicatie.cpp",
+  "output": "CMakeFiles/oop.dir/EvaluareAplicatie.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\EvaluarePreparat.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\EvaluarePreparat.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/EvaluarePreparat.cpp",
+  "output": "CMakeFiles/oop.dir/EvaluarePreparat.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Meniu.cpp.obj -c C:\\Users\\Ioana\\Desktop\\poo\\proiect\\ProiectPOO_Platforma-Food-Delivery\\Meniu.cpp",
+  "file": "C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/Meniu.cpp",
+  "output": "CMakeFiles/oop.dir/Meniu.cpp.obj"
+}
+]

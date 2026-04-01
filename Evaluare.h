@@ -19,7 +19,4 @@ public:
 
     // functie virtuala pura
     virtual void afisare() const = 0;
-
-    // getter pt nota
-    int getNota() const { return nota; }
 };

@@ -52,5 +52,7 @@ int main() {
 
     aplicatie->startMeniu();
 
+    delete aplicatie;
+
     return 0;
 }

@@ -230,7 +230,7 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "UTILIZATORI:\n";
-        for (Utilizator* u : utilizatori) std::cout << *u;
+        for (const Utilizator* u : utilizatori) std::cout << *u;
     }
     else if (opt == 2) {
         if (restaurante.empty()) { 
@@ -238,7 +238,7 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "RESTAURANTE:\n";
-        for (Restaurant* r : restaurante) r->afisare();
+        for (const Restaurant* r : restaurante) r->afisare();
     }
     else if (opt == 3) {
         if (comenzi.empty()) { 
@@ -246,7 +246,7 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "COMENZI:\n";
-        for (Comanda* c : comenzi) c->afisare();
+        for (const Comanda* c : comenzi) c->afisare();
     }
     else if (opt == 4) {
         if (recenzii.empty()) { 
@@ -254,7 +254,7 @@ void Meniu::meniuAfiseaza() {
             return; 
         }
         std::cout << "RECENZII:\n";
-        for (Evaluare* e : recenzii) e->afisare();
+        for (const Evaluare* e : recenzii) e->afisare();
     }
     else {
         std::cout << "optiune invalida!\n";

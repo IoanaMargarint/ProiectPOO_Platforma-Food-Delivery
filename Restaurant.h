@@ -23,10 +23,8 @@ public:
     // operator de atribuire
     Restaurant& operator=(const Restaurant& altul);
 
-   void adaugaProdus(Produs* p);
-   void afisare() const;
+    void adaugaProdus(Produs* p);
+    void afisare() const;
 
-   // getter pt plasarea comenzii
-    const std::vector<Produs*>& getProduse() const { return meniu; }
     std::string getNume() const { return nume; }
 };

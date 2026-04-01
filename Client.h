@@ -15,5 +15,4 @@ public:
 
     // setter pt modificare adresa
     void setAdresaLivrare(const std::string& adresa) { adresaLivrare = adresa;}
-    std::string getAdresaLivrare() const { return adresaLivrare; }
 };
