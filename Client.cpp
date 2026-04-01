@@ -1,6 +1,6 @@
 #include "Client.h"
 
-Client::Client(std::string nume, std::string telefon, std::string adresaLivrare) : Utilizator(nume, telefon), adresaLivrare(adresaLivrare) {}
+Client::Client(const std::string& nume, const std::string& telefon, const std::string& adresaLivrare) : Utilizator(nume, telefon), adresaLivrare(adresaLivrare) {}
 
 Client::~Client() {}
 
