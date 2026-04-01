@@ -1,8 +1,8 @@
 #include "EvaluareComandaCompleta.h"
 
-EvaluareComandaCompleta::EvaluareComandaCompleta(int nota, std::string mesaj, 
-                                                 std::string numeRestaurant, bool mancareCalda,
-                                                 std::string numeCurier, int timpLivrareMinute,
+EvaluareComandaCompleta::EvaluareComandaCompleta(int nota, const std::string& mesaj, 
+                                                 const std::string& numeRestaurant, bool mancareCalda,
+                                                 const std::string& numeCurier, int timpLivrareMinute,
                                                  int idComanda)
     : Evaluare(nota, mesaj),
       EvaluareRestaurant(nota, mesaj, numeRestaurant, mancareCalda),
