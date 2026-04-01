@@ -9,7 +9,7 @@ private:
 
 public:
     // constructor
-    Produs(std::string nume, double pret);
+    Produs(const std::string& nume, double pret);
 
     // destructor virtual
     virtual ~Produs();
