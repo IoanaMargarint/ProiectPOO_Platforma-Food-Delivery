@@ -1,4 +1,5 @@
 #include "Comanda.h"
+#include <numeric>
 
 int Comanda::contorComenzi = 0;
 
@@ -18,10 +19,8 @@ void Comanda::adaugaInCos(Produs* p) {
 }
 
 void Comanda::calculeazaTotal() {
-    pretTotal = 0;
-    for(const Produs* p : cosCumparaturi) {
-        pretTotal += p->getPret();
-    }
+   pretTotal = std::accumulate(cosCumparaturi.begin(), cosCumparaturi.end(), 0.0,
+        [](double sum, const Produs* p) { return sum + p->getPret(); });
 }
 
 void Comanda::afisare() const {
