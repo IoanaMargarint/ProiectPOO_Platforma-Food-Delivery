@@ -1,7 +1,0 @@
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/oop.dir
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/edit_cache.dir
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/rebuild_cache.dir
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/list_install_components.dir
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/install.dir
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/install/local.dir
-C:/Users/Ioana/Desktop/poo/proiect/ProiectPOO_Platforma-Food-Delivery/build/CMakeFiles/install/strip.dir
