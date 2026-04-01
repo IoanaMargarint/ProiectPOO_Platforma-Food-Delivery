@@ -7,7 +7,7 @@ protected:
     bool mancareCalda;
 
 public:
-    EvaluareRestaurant(int nota, std::string mesaj, std::string numeRestaurant, bool mancareCalda);
+    EvaluareRestaurant(int nota, const std::string& mesaj, const std::string& numeRestaurant, bool mancareCalda);
 
     ~EvaluareRestaurant() override;
 
