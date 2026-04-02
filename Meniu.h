@@ -24,9 +24,6 @@ private:
     void meniuAfiseaza();
 
 public:
-    Meniu(const Meniu&) = delete;
-    Meniu& operator=(const Meniu&) = delete;
-
     static Meniu* getInstance();
 
     ~Meniu();
