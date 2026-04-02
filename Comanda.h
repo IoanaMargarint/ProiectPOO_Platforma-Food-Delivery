@@ -25,9 +25,6 @@ public:
     // destructor
     ~Comanda();
 
-    Comanda(const Comanda&) = delete;
-    Comanda& operator=(const Comanda&) = delete;
-
    void adaugaInCos(Produs* p);
    void calculeazaTotal();
    void afisare() const;
